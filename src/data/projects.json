@@ -2,10 +2,10 @@
   {
     "name": "Portfolio Website",
     "description": "Personal portfolio built with React and Vite.",
-    "url": "https://adolforv.github.io/adrrova",
-    "github": "https://github.com/AdolfoRV/adrrova",
+    "url": "https://adolforv.github.io",
+    "github": "https://github.com/AdolfoRV/adolforv.github.io",
     "tags": ["react", "vite", "tailwind"],
-    "image": "/adrrova/project-portfolio.png"
+    "image": "/project-portfolio.png"
   },
   {
     "name": "ViviendaVision",
@@ -13,6 +13,6 @@
     "url": "https://viviendavision.cl/",
     "github": "https://github.com/AdolfoRV/ViviendaVision",
     "tags": ["html", "css", "javascript"],
-    "image": "/adrrova/project-viviendavision.png"
+    "image": "/project-viviendavision.png"
   }
 ]
