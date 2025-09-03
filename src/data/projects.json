@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Portfolio Website",
+    "description": "Personal portfolio built with React and Vite.",
+    "url": "https://adolforv.github.io/adrrova",
+    "github": "https://github.com/AdolfoRV/adrrova",
+    "tags": ["react", "vite", "tailwind"],
+    "image": "/adrrova/project-portfolio.png"
+  },
+  {
+    "name": "ViviendaVision",
+    "description": "A prototype static website developed for the course 'Workshop on Conceptualization and Project Design'.",
+    "url": "https://viviendavision.cl/",
+    "github": "https://github.com/AdolfoRV/ViviendaVision",
+    "tags": ["html", "css", "javascript"],
+    "image": "/adrrova/project-viviendavision.png"
+  }
+]
