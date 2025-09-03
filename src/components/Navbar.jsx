@@ -25,7 +25,7 @@ export const Navbar = ({ items }) => {
       <div className="container flex items-center justify-between">
         <Link
           className="text-xl font-bold text-primary flex items-center"
-          to="/adrrova"
+          to="/"
         >
           <span className="relative z-10">
             <span className="text-glow text-foreground">@ Ad</span>
@@ -36,13 +36,13 @@ export const Navbar = ({ items }) => {
         {/* desktop nav */}
         <div className="hidden md:flex space-x-8">
           {items.map((item) => (
-            <Link
+            <a
               key={item.title}
-              to={item.href}
+              href={item.href}
               className="text-foreground/80 hover:text-primary transition-colors duration-300"
             >
               {item.title}
-            </Link>
+            </a>
           ))}
         </div>
 
@@ -66,14 +66,14 @@ export const Navbar = ({ items }) => {
         >
           <div className="flex flex-col space-y-8 text-xl">
             {items.map((item) => (
-              <Link
+              <a
                 key={item.title}
-                to={item.href}
+                href={item.href}
                 className="text-foreground/80 hover:text-primary transition-colors duration-300"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.title}
-              </Link>
+              </a>
             ))}
           </div>
         </div>
