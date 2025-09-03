@@ -1,0 +1,37 @@
+###############################################################
+# Dockerfile for Vite + React production environment
+#
+# Best practices:
+# - Use multi-stage builds to keep the final image small
+# - Use node:alpine for a lightweight build environment
+# - Only copy necessary files for build
+# - Serve static files with nginx:alpine for performance
+# - Expose port 80 for web traffic
+# - Add a healthcheck for container reliability (optional)
+###############################################################
+
+# Use lightweight Node.js image for build stage
+FROM node:20-alpine AS builder
+# Set working directory inside the container
+WORKDIR /app
+# Copy dependency files first for better caching
+COPY package.json package-lock.json ./
+# Install dependencies efficiently
+RUN npm ci --prefer-offline --no-audit --progress=false
+# Copy the rest of the source code
+COPY . .
+# Build the Vite app for production
+RUN npm run build
+
+# Use lightweight nginx image to serve static files
+FROM nginx:stable-alpine
+# Set nginx's root directory as working directory
+WORKDIR /usr/share/nginx/html
+# Copy built files from previous stage
+COPY --from=builder /app/dist .
+# Expose port 80 for web traffic
+EXPOSE 80
+# Healthcheck for container reliability
+HEALTHCHECK --interval=30s --timeout=5s CMD wget -q --spider http://localhost || exit 1
+# Start nginx in foreground mode
+CMD ["nginx", "-g", "daemon off;"]
