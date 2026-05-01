@@ -2,10 +2,10 @@
   {
     "name": "Portfolio Website",
     "description": "Personal portfolio built with React and Vite.",
-    "url": "https://adolforv.github.io",
-    "github": "https://github.com/AdolfoRV/adolforv.github.io",
+    "url": "https://adolforv.github.io/adrrova",
+    "github": "https://github.com/AdolfoRV/adrrova",
     "tags": ["react", "vite", "tailwind"],
-    "image": "/project-portfolio.png"
+    "image": "/adrrova/project-portfolio.png"
   },
   {
     "name": "ViviendaVision",
@@ -13,6 +13,13 @@
     "url": "https://viviendavision.cl/",
     "github": "https://github.com/AdolfoRV/ViviendaVision",
     "tags": ["html", "css", "javascript"],
-    "image": "/project-viviendavision.png"
+    "image": "/adrrova/project-viviendavision.png"
+  },
+  {
+    "name": "U-Clases",
+    "description": "A web application to offer private classes, built with Django and Tailwind.",
+    "github": "https://github.com/DCC-CC4401/2025-2-CC4401-grupo-4",
+    "tags": ["django", "tailwind"],
+    "image": "/adrrova/project-u-clases.png"
   }
 ]
