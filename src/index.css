@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-border: hsl(var(--border));
-  --color-background: hsl(var(--background));
-  --color-foreground: hsl(var(--foreground));
+  --color-border: var(--border);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
 
-  --color-primary: hsl(var(--primary));
-  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
 
-  --color-card: hsl(var(--card));
+  --color-card: var(--card);
 
   --animate-float: float 6s ease-in-out infinite;
   --animate-pulse-subtle: pulse-subtle 4s ease-in-out infinite;
@@ -64,29 +64,29 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%; 
-    --foreground: 222 47% 11%;
+    --background: #F8FAFC; 
+    --foreground: #0F1729;
 
-    --card: 0 0% 100%;
+    --card: #FFFFFF;
 
     /* --primary: 250 47% 60%; */
-    --primary: 166, 95%, 30%;
-    --primary-foreground: 210 40% 98%;
-    
-    --border: 214 32% 91%;
+    --primary: #049573;
+    --primary-foreground: #F8FAFC;
+
+    --border: #E1E7EF;
   }
   
   .dark {
-    --background: 222 47% 4%;
-    --foreground: 213 31% 91%;
-    
-    --card: 222 47% 8%;
-    
-    /* --primary: 250 65% 65%; */
-    --primary: 177, 72%, 37%;
-    --primary-foreground: 213 31% 91%;
+    --background: #05080F;
+    --foreground: #E1E7EF;
 
-    --border: 217 33% 20%;
+    --card: #0B111E;
+
+    /* --primary: 250 65% 65%; */
+    --primary: #1AA29B;
+    --primary-foreground: #E1E7EF;
+
+    --border: #222F44;
   }
 
   * {
@@ -135,7 +135,7 @@
 
 @utility gradient-border {
   @apply relative rounded-md;
-  background: linear-gradient(to right, hsl(var(--card)), hsl(var(--card)));
+  background: linear-gradient(to right, var(--card), var(--card));
   background-clip: padding-box;
   border: 1px solid transparent;
 }
