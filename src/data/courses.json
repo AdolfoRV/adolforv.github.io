@@ -9,10 +9,7 @@
         "category": "Básico",
         "credits": 6,
         "prerequisites": [],
-        "opensCourses": [
-          "MA1002",
-          "FI1100"
-        ]
+        "opensCourses": ["MA1002", "FI1100"]
       },
       {
         "code": "MA1101",
@@ -21,10 +18,7 @@
         "category": "Básico",
         "credits": 6,
         "prerequisites": [],
-        "opensCourses": [
-          "MA1102",
-          "FI1100"
-        ]
+        "opensCourses": ["MA1102", "FI1100"]
       },
       {
         "code": "FI1000",
@@ -33,9 +27,7 @@
         "category": "Básico",
         "credits": 6,
         "prerequisites": [],
-        "opensCourses": [
-          "FI1100"
-        ]
+        "opensCourses": ["FI1100"]
       },
       {
         "code": "CC1000",
@@ -53,9 +45,7 @@
         "category": "Básico",
         "credits": 6,
         "prerequisites": [],
-        "opensCourses": [
-          "CD1201"
-        ]
+        "opensCourses": ["CD1201"]
       },
       {
         "code": "BT1211",
@@ -77,15 +67,8 @@
         "name_en": "Differential and Integral Calculus",
         "category": "Básico",
         "credits": 6,
-        "prerequisites": [
-          "MA1001"
-        ],
-        "opensCourses": [
-          "MA2001",
-          "MA2601",
-          "FI2001",
-          "FI2003"
-        ]
+        "prerequisites": ["MA1001"],
+        "opensCourses": ["MA2001", "MA2601", "FI2001", "FI2003"]
       },
       {
         "code": "MA1102",
@@ -93,14 +76,8 @@
         "name_en": "Linear Algebra",
         "category": "Básico",
         "credits": 6,
-        "prerequisites": [
-          "MA1101"
-        ],
-        "opensCourses": [
-          "MA2001",
-          "MA2601",
-          "FI2001"
-        ]
+        "prerequisites": ["MA1101"],
+        "opensCourses": ["MA2001", "MA2601", "FI2001"]
       },
       {
         "code": "FI1100",
@@ -108,16 +85,8 @@
         "name_en": "Introduction to Modern Physics",
         "category": "Básico",
         "credits": 6,
-        "prerequisites": [
-          "FI1000",
-          "MA1001",
-          "MA1101"
-        ],
-        "opensCourses": [
-          "FI2001",
-          "FI2003",
-          "IQ2211"
-        ]
+        "prerequisites": ["FI1000", "MA1001", "MA1101"],
+        "opensCourses": ["FI2001", "FI2003", "IQ2211"]
       },
       {
         "code": "CC1002",
@@ -126,11 +95,7 @@
         "category": "Básico",
         "credits": 6,
         "prerequisites": [],
-        "opensCourses": [
-          "IQ2211",
-          "CC3001",
-          "IN4151"
-        ]
+        "opensCourses": ["IQ2211", "CC3001", "IN4151"]
       },
       {
         "code": "CD1201",
@@ -138,12 +103,8 @@
         "name_en": "Innovation Project in Engineering and Sciences",
         "category": "Básico",
         "credits": 3,
-        "prerequisites": [
-          "CD1100"
-        ],
-        "opensCourses": [
-          "CD2201"
-        ]
+        "prerequisites": ["CD1100"],
+        "opensCourses": ["CD2201"]
       },
       {
         "code": "DR150A",
@@ -165,15 +126,8 @@
         "name_en": "Calculus in Several Variables",
         "category": "Básico",
         "credits": 6,
-        "prerequisites": [
-          "MA1002",
-          "MA1102"
-        ],
-        "opensCourses": [
-          "IN2201",
-          "IN3141",
-          "IQ2212"
-        ]
+        "prerequisites": ["MA1002", "MA1102"],
+        "opensCourses": ["IN2201", "IN3141", "IQ2212"]
       },
       {
         "code": "FI2003",
@@ -181,13 +135,8 @@
         "name_en": "Experimental Methods",
         "category": "Básico",
         "credits": 6,
-        "prerequisites": [
-          "FI1100",
-          "MA1002"
-        ],
-        "opensCourses": [
-          "CD2201"
-        ]
+        "prerequisites": ["FI1100", "MA1002"],
+        "opensCourses": ["CD2201"]
       },
       {
         "code": "FI2001",
@@ -195,14 +144,8 @@
         "name_en": "Mechanics",
         "category": "Básico",
         "credits": 6,
-        "prerequisites": [
-          "FI1100",
-          "MA1002",
-          "MA1102"
-        ],
-        "opensCourses": [
-          "IQ2212"
-        ]
+        "prerequisites": ["FI1100", "MA1002", "MA1102"],
+        "opensCourses": ["IQ2212"]
       },
       {
         "code": "IQ2211",
@@ -210,13 +153,8 @@
         "name_en": "Chemistry",
         "category": "Básico",
         "credits": 6,
-        "prerequisites": [
-          "CC1002",
-          "FI1100"
-        ],
-        "opensCourses": [
-          "IQ2212"
-        ]
+        "prerequisites": ["CC1002", "FI1100"],
+        "opensCourses": ["IQ2212"]
       },
       {
         "code": "EH2310",
@@ -256,14 +194,8 @@
         "name_en": "Ordinary Differential Equations",
         "category": "Básico",
         "credits": 6,
-        "prerequisites": [
-          "MA1002",
-          "MA1102"
-        ],
-        "opensCourses": [
-          "MA2002",
-          "FI2002"
-        ]
+        "prerequisites": ["MA1002", "MA1102"],
+        "opensCourses": ["MA2002", "FI2002"]
       },
       {
         "code": "IN2201",
@@ -271,14 +203,8 @@
         "name_en": "Economics",
         "category": "Básico",
         "credits": 6,
-        "prerequisites": [
-          "MA2001"
-        ],
-        "opensCourses": [
-          "IN3221",
-          "IN3301",
-          "IN4123"
-        ]
+        "prerequisites": ["MA2001"],
+        "opensCourses": ["IN3221", "IN3301", "IN4123"]
       },
       {
         "code": "IQ2212",
@@ -286,14 +212,8 @@
         "name_en": "Chemical Thermodynamics",
         "category": "Básico",
         "credits": 6,
-        "prerequisites": [
-          "FI2001",
-          "IQ2211",
-          "MA2001"
-        ],
-        "opensCourses": [
-          "IN4191"
-        ]
+        "prerequisites": ["FI2001", "IQ2211", "MA2001"],
+        "opensCourses": ["IN4191"]
       },
       {
         "code": "IN3141",
@@ -301,16 +221,8 @@
         "name_en": "Probabilities",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "MA2001"
-        ],
-        "opensCourses": [
-          "IN3221",
-          "IN3242",
-          "IN3272",
-          "IN3301",
-          "IN4123"
-        ]
+        "prerequisites": ["MA2001"],
+        "opensCourses": ["IN3221", "IN3242", "IN3272", "IN3301", "IN4123"]
       },
       {
         "code": "CD2201",
@@ -318,13 +230,8 @@
         "name_en": "Interdisciplinary Module",
         "category": "General",
         "credits": 3,
-        "prerequisites": [
-          "CD1201",
-          "FI2003"
-        ],
-        "opensCourses": [
-          "IN3101"
-        ]
+        "prerequisites": ["CD1201", "FI2003"],
+        "opensCourses": ["IN3101"]
       }
     ]
   },
@@ -346,13 +253,8 @@
         "name_en": "Advanced Calculus and Applications",
         "category": "Básico",
         "credits": 6,
-        "prerequisites": [
-          "MA2001",
-          "MA2601"
-        ],
-        "opensCourses": [
-          "IN3171"
-        ]
+        "prerequisites": ["MA2001", "MA2601"],
+        "opensCourses": ["IN3171"]
       }
     ]
   },
@@ -365,9 +267,7 @@
         "name_en": "Modeling and Optimization",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "MA2002"
-        ],
+        "prerequisites": ["MA2002"],
         "opensCourses": [
           "IN3272",
           "IN4102",
@@ -383,12 +283,8 @@
         "name_en": "Workshop on Leadership and Social Innovation",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "CD2201"
-        ],
-        "opensCourses": [
-          "IN4102"
-        ]
+        "prerequisites": ["CD2201"],
+        "opensCourses": ["IN4102"]
       },
       {
         "code": "IN3221",
@@ -396,10 +292,7 @@
         "name_en": "Game Theory and Strategy",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "IN2201",
-          "IN3141"
-        ],
+        "prerequisites": ["IN2201", "IN3141"],
         "opensCourses": []
       },
       {
@@ -408,9 +301,7 @@
         "name_en": "Statistics",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "IN3141"
-        ],
+        "prerequisites": ["IN3141"],
         "opensCourses": [
           "IN4143",
           "IN4151",
@@ -426,10 +317,7 @@
         "name_en": "Macroeconomics",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "IN2201",
-          "IN3141"
-        ],
+        "prerequisites": ["IN2201", "IN3141"],
         "opensCourses": []
       },
       {
@@ -438,9 +326,7 @@
         "name_en": "Algorithms and Data Structures",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "CC1002"
-        ],
+        "prerequisites": ["CC1002"],
         "opensCourses": [
           "CC3002",
           "CC3201",
@@ -461,10 +347,7 @@
         "name_en": "Decisions Under Uncertainty",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "IN3141",
-          "IN3171"
-        ],
+        "prerequisites": ["IN3141", "IN3171"],
         "opensCourses": []
       },
       {
@@ -473,10 +356,7 @@
         "name_en": "Workshop on Project Conception and Design",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "IN3101",
-          "IN3171"
-        ],
+        "prerequisites": ["IN3101", "IN3171"],
         "opensCourses": []
       },
       {
@@ -485,9 +365,7 @@
         "name_en": "Data Analysis and Causal Inference",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "IN3242"
-        ],
+        "prerequisites": ["IN3242"],
         "opensCourses": []
       },
       {
@@ -496,12 +374,8 @@
         "name_en": "Design and Programming Methodologies",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "CC3001"
-        ],
-        "opensCourses": [
-          "CC4401"
-        ]
+        "prerequisites": ["CC3001"],
+        "opensCourses": ["CC4401"]
       },
       {
         "code": "CC3301",
@@ -509,9 +383,7 @@
         "name_en": "Systems Software Programming",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "CC3001"
-        ],
+        "prerequisites": ["CC3001"],
         "opensCourses": []
       }
     ]
@@ -525,15 +397,8 @@
         "name_en": "Project Evaluation",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "IN2201",
-          "IN3141"
-        ],
-        "opensCourses": [
-          "IN4191",
-          "IN4232",
-          "IN4261"
-        ]
+        "prerequisites": ["IN2201", "IN3141"],
+        "opensCourses": ["IN4191", "IN4232", "IN4261"]
       },
       {
         "code": "FI2002",
@@ -541,12 +406,8 @@
         "name_en": "Electromagnetism",
         "category": "Básico",
         "credits": 6,
-        "prerequisites": [
-          "MA2601"
-        ],
-        "opensCourses": [
-          "IN4191"
-        ]
+        "prerequisites": ["MA2601"],
+        "opensCourses": ["IN4191"]
       }
     ]
   },
@@ -559,13 +420,8 @@
         "name_en": "Database Systems",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "CC3001"
-        ],
-        "opensCourses": [
-          "CC4401",
-          "CC5615"
-        ]
+        "prerequisites": ["CC3001"],
+        "opensCourses": ["CC4401", "CC5615"]
       },
       {
         "code": "CC5205",
@@ -573,12 +429,8 @@
         "name_en": "Data Mining",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "CC3001"
-        ],
-        "opensCourses": [
-          "CC6204"
-        ]
+        "prerequisites": ["CC3001"],
+        "opensCourses": ["CC6204"]
       },
       {
         "code": "CC5213",
@@ -586,9 +438,7 @@
         "name_en": "Multimedia Information Retrieval",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "CC3001"
-        ],
+        "prerequisites": ["CC3001"],
         "opensCourses": []
       },
       {
@@ -597,9 +447,7 @@
         "name_en": "Natural Language Processing",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "CC3001"
-        ],
+        "prerequisites": ["CC3001"],
         "opensCourses": []
       },
       {
@@ -608,11 +456,7 @@
         "name_en": "Information Engineering",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "CC1002",
-          "IN3171",
-          "IN3242"
-        ],
+        "prerequisites": ["CC1002", "IN3171", "IN3242"],
         "opensCourses": []
       },
       {
@@ -644,10 +488,7 @@
         "name_en": "Software Engineering",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "CC3002",
-          "CC3201"
-        ],
+        "prerequisites": ["CC3002", "CC3201"],
         "opensCourses": []
       },
       {
@@ -656,9 +497,7 @@
         "name_en": "Business Analytics",
         "category": "Especializada",
         "credits": 3,
-        "prerequisites": [
-          "CC3201"
-        ],
+        "prerequisites": ["CC3201"],
         "opensCourses": []
       },
       {
@@ -667,9 +506,7 @@
         "name_en": "Deep Learning",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "CC5205"
-        ],
+        "prerequisites": ["CC5205"],
         "opensCourses": []
       },
       {
@@ -687,13 +524,8 @@
         "name_en": "Operations Management",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "IN3171",
-          "IN3242"
-        ],
-        "opensCourses": [
-          "IN5112"
-        ]
+        "prerequisites": ["IN3171", "IN3242"],
+        "opensCourses": ["IN5112"]
       },
       {
         "code": "IN4261",
@@ -701,14 +533,8 @@
         "name_en": "Marketing",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "IN3171",
-          "IN3242",
-          "IN3301"
-        ],
-        "opensCourses": [
-          "IN5112"
-        ]
+        "prerequisites": ["IN3171", "IN3242", "IN3301"],
+        "opensCourses": ["IN5112"]
       },
       {
         "code": "IN4232",
@@ -716,13 +542,131 @@
         "name_en": "Finance",
         "category": "Especializada",
         "credits": 6,
-        "prerequisites": [
-          "IN3242",
-          "IN3301"
-        ],
-        "opensCourses": [
-          "IN5112"
-        ]
+        "prerequisites": ["IN3242", "IN3301"],
+        "opensCourses": ["IN5112"]
+      }
+    ]
+  },
+  {
+    "semester": "VIII-summer",
+    "courses": [
+      {
+        "code": "IN4191",
+        "name": "Práctica Profesional",
+        "name_en": "Professional Practice",
+        "category": "Especializada",
+        "credits": 7,
+        "prerequisites": ["FI2002", "IN3171", "IN3242", "IN3301", "IQ2212"],
+        "opensCourses": ["IN5111"]
+      }
+    ]
+  },
+  {
+    "semester": "IX",
+    "courses": [
+      {
+        "code": "MDS7104",
+        "name": "Aprendizaje de Máquinas",
+        "name_en": "Machine Learning",
+        "category": "Especializada",
+        "credits": 6,
+        "prerequisites": ["IN3141"],
+        "opensCourses": ["MDS7202"]
+      },
+      {
+        "code": "IN5111",
+        "name": "Comportamiento Organizacional",
+        "name_en": "Organizational Behavior",
+        "category": "Especializada",
+        "credits": 6,
+        "prerequisites": ["IN4191"],
+        "opensCourses": []
+      },
+      {
+        "code": "IN5112",
+        "name": "Dirección Estratégica",
+        "name_en": "Strategic Management",
+        "category": "Especializada",
+        "credits": 6,
+        "prerequisites": ["IN4232", "IN4261", "IN4273"],
+        "opensCourses": []
+      },
+      {
+        "code": "IN5152",
+        "name": "Diseño de Procesos de Negocios",
+        "name_en": "Business Process Design",
+        "category": "Especializada",
+        "credits": 6,
+        "prerequisites": ["IN4151"],
+        "opensCourses": []
+      },
+      {
+        "code": "IN5162",
+        "name": "Ingeniería de Marketing",
+        "name_en": "Marketing Engineering",
+        "category": "Especializada",
+        "credits": 6,
+        "prerequisites": ["IN4143", "IN4261"],
+        "opensCourses": []
+      },
+      {
+        "code": "IN5234",
+        "name": "Modelamiento de Riesgo Financiero",
+        "name_en": "Financial Risk Modeling",
+        "category": "Especializada",
+        "credits": 3,
+        "prerequisites": ["IN4232"],
+        "opensCourses": []
+      },
+      {
+        "code": "MOV-UV00001",
+        "name": "Aplicaciones para la Gestión",
+        "name_en": "Applications for Management",
+        "category": "Complementaria",
+        "credits": 2,
+        "prerequisites": [],
+        "opensCourses": []
+      }
+    ]
+  },
+  {
+    "semester": "X",
+    "courses": [
+      {
+        "code": "MDS7201",
+        "name": "Proyecto de Ciencia de Datos",
+        "name_en": "Data Science Project",
+        "category": "Especializada",
+        "credits": 6,
+        "prerequisites": ["CC3201", "CC5205"],
+        "opensCourses": []
+      },
+      {
+        "code": "MDS7202",
+        "name": "Laboratorio de Programación Científica para Ciencia de Datos",
+        "name_en": "Scientific Programming Laboratory for Data Science",
+        "category": "Especializada",
+        "credits": 6,
+        "prerequisites": ["MDS7104", "IN3242"],
+        "opensCourses": []
+      },
+      {
+        "code": "IN5233",
+        "name": "Ingeniería Financiera",
+        "name_en": "Financial Engineering",
+        "category": "Especializada",
+        "credits": 6,
+        "prerequisites": ["IN4232", "IN4143"],
+        "opensCourses": []
+      },
+      {
+        "code": "IN5244",
+        "name": "Ciencia de los Datos",
+        "name_en": "Data Science",
+        "category": "Especializada",
+        "credits": 6,
+        "prerequisites": ["IN4151", "IN4143"],
+        "opensCourses": []
       }
     ]
   }
