@@ -19,8 +19,10 @@ export const PresentationSection = () => {
           </h1>
           <br />
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I create innovative solutions that combine modern technologies with business expertise.
-            Specializing in data science and analytics, I build systems that are powerful, scalable, and designed to deliver real-world impact.
+            I create innovative solutions that combine modern technologies with
+            business expertise. Specializing in data science and analytics, I
+            build systems that are powerful, scalable, and designed to deliver
+            real-world impact.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
