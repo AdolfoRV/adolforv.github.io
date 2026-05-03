@@ -15,36 +15,54 @@ export const AboutSection = () => {
               Industrial Engineer & Data Scientist
             </h3>
             <p className="text-muted-foreground">
-              I'm a 5th-year Industrial Engineering student at the University of Chile, 
-              specializing in Operations, Finance, Marketing, and Business Intelligence. 
-              Alongside my major, I pursue minors in Computer Science and Data Science, 
-              and I am advancing in the Master's program in Data Science.
+              I'm a 5th-year Industrial Engineering student at the University of
+              Chile, specializing in Operations, Finance, Marketing, and
+              Business Intelligence. Alongside my major, I pursue minors in
+              Computer Science and Data Science, and I am advancing in the
+              Master's program in Data Science.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="mailto:adolfo.rojas.v@ug.uchile.cl" aria-label="Email" className="cosmic-button">
+              <a
+                href="mailto:adolfo.rojas.v@ug.uchile.cl"
+                aria-label="Email"
+                className="cosmic-button"
+              >
                 Get In Touch
               </a>
-              <a href="https://www.linkedin.com/in/adolfo-rv" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+              <a
+                href="https://www.linkedin.com/in/adolfo-rv"
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              >
                 My LinkedIn
               </a>
             </div>
           </div>
 
           <div className="grid grid-cols-1 gap-6">
-            <AboutCard icon={<Code className="h-6 w-6 text-primary" />} title="Data Science & Analytics">
-              Skilled in data mining, causal inference, and information engineering. 
-              Experienced with Python, R, SQL/NoSQL, and analytical modeling.
+            <AboutCard
+              icon={<Code className="h-6 w-6 text-primary" />}
+              title="Data Science & Analytics"
+            >
+              Skilled in data mining, causal inference, and information
+              engineering. Experienced with Python, R, SQL/NoSQL, and analytical
+              modeling.
             </AboutCard>
-            <AboutCard icon={<User className="h-6 w-6 text-primary" />} title="Software Development">
-              Background in Scala, and C programming. 
-              Experienced in building prototypes, efficient systems programming, 
-              and object-oriented design patterns.
+            <AboutCard
+              icon={<User className="h-6 w-6 text-primary" />}
+              title="Software Development"
+            >
+              Background in Scala, and C programming. Experienced in building
+              prototypes, efficient systems programming, and object-oriented
+              design patterns.
             </AboutCard>
-            <AboutCard icon={<Briefcase className="h-6 w-6 text-primary" />} title="Business & Operations">
-              Strong foundation in optimization and BI. 
-              Experienced in applying data science for decision-making and 
-              performance measurement (KPIs, dashboards, analytics).
+            <AboutCard
+              icon={<Briefcase className="h-6 w-6 text-primary" />}
+              title="Business & Operations"
+            >
+              Strong foundation in optimization and BI. Experienced in applying
+              data science for decision-making and performance measurement
+              (KPIs, dashboards, analytics).
             </AboutCard>
           </div>
         </div>
