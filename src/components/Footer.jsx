@@ -7,13 +7,28 @@ export const Footer = () => {
   return (
     <footer className="z-50 py-4 px-7 bg-card relative border-t border-border mt-10 pt-5 flex flex-wrap justify-between items-center">
       <div className="flex items-center gap-4">
-        <a href="https://www.linkedin.com/in/adolfo-rv" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <a
+          href="https://www.linkedin.com/in/adolfo-rv"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
           <Linkedin size={24} />
         </a>
-        <a href="https://github.com/AdolfoRV" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <a
+          href="https://github.com/AdolfoRV"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
           <Github size={24} />
         </a>
-        <a href="https://instagram.com/ad.rrova" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <a
+          href="https://instagram.com/ad.rrova"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+        >
           <Instagram size={24} />
         </a>
         <a href="mailto:adolfo.rojas.v@ug.uchile.cl" aria-label="Email">

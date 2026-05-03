@@ -17,25 +17,14 @@
   --animate-fade-in-delay-2: fade-in 0.7s ease-out 0.4s forwards;
   --animate-fade-in-delay-3: fade-in 0.7s ease-out 0.6s forwards;
   --animate-fade-in-delay-4: fade-in 0.7s ease-out 0.8s forwards;
-  --animate-meteor: meteor 5s linear infinite;
 
   @keyframes float {
-    0%,
-    100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
   }
   @keyframes pulse-subtle {
-    0%,
-    100% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.8;
-    }
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.8; }
   }
   @keyframes fade-in {
     from {
@@ -47,42 +36,27 @@
       transform: translateY(0);
     }
   }
-  @keyframes meteor {
-    0% {
-      transform: rotate(215deg) translateX(0);
-      opacity: 1;
-    }
-    70% {
-      opacity: 1;
-    }
-    100% {
-      transform: rotate(215deg) translateX(-500px);
-      opacity: 0;
-    }
-  }
 }
 
 @layer base {
   :root {
-    --background: #F8FAFC; 
+    --background: #F8FAFC;
     --foreground: #0F1729;
 
     --card: #FFFFFF;
 
-    /* --primary: 250 47% 60%; */
     --primary: #049573;
     --primary-foreground: #F8FAFC;
 
     --border: #E1E7EF;
   }
-  
+
   .dark {
     --background: #05080F;
     --foreground: #E1E7EF;
 
     --card: #0B111E;
 
-    /* --primary: 250 65% 65%; */
     --primary: #1AA29B;
     --primary-foreground: #E1E7EF;
 
@@ -107,21 +81,11 @@
   margin-inline: auto;
   padding-inline: 2rem;
 
-  @media (width >= 640px) {
-    max-width: 640px;
-  }
-  @media (width >= 768px) {
-    max-width: 768px;
-  }
-  @media (width >= 1024px) {
-    max-width: 1024px;
-  }
-  @media (width >= 1280px) {
-    max-width: 1280px;
-  }
-  @media (width >= 1400px) {
-    max-width: 1400px;
-  }
+  @media (width >= 640px) { max-width: 640px; }
+  @media (width >= 768px) { max-width: 768px; }
+  @media (width >= 1024px) { max-width: 1024px; }
+  @media (width >= 1280px) { max-width: 1280px; }
+  @media (width >= 1400px) { max-width: 1400px; }
 }
 
 @utility text-glow {
@@ -141,7 +105,7 @@
 }
 
 @utility cosmic-button {
-  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium 
+  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium
          transition-all duration-300 hover:shadow-[0_0_10px_rgba(11,156,49,0.5)]
          hover:scale-105 active:scale-95;
 }
@@ -149,11 +113,6 @@
 @utility star {
   @apply absolute rounded-full bg-white;
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
-}
-
-@utility meteor {
-  @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full;
-  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
 }
 
 #root {
