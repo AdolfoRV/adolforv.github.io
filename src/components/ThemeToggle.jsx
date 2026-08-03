@@ -1,7 +1,7 @@
 import { Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
 
-export const ThemeToggle = () => {
+export const ThemeToggle = ({ size = 24 }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
@@ -30,12 +30,12 @@ export const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 rounded-full transition-colors duration-300 focus:outline-hidden"
+      className="p-2 rounded-full transition-colors duration-300 focus:outline-hidden hover:scale-110"
     >
       {isDarkMode ? (
-        <Sun className="h-6 w-6 text-yellow-300" />
+        <Sun size={size} className="text-yellow-300" />
       ) : (
-        <Moon className="h-6 w-6 text-blue-900" />
+        <Moon size={size} className="text-blue-900" />
       )}
     </button>
   );
