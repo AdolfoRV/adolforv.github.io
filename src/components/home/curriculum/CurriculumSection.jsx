@@ -1,5 +1,5 @@
 import { useState } from "react";
-import coursesData from "@/data/courses.json";
+import coursesData from "@/data/education/courses.json";
 import { CourseCard } from "./CourseCard";
 
 const COLLAPSED_SEMESTERS = new Set(["I", "II", "III", "IV", "IV-summer"]);
@@ -25,7 +25,7 @@ export const CurriculumSection = () => {
   };
 
   return (
-    <section id="curriculum" className="py-10 px-4 relative bg-secondary/30">
+    <section id="curriculum" className="relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
           My <span className="text-primary"> Curriculum</span>
