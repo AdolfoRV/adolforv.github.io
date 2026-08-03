@@ -1,42 +1,92 @@
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, ArrowDownRight, FileDown, Linkedin, Github } from "lucide-react";
 
 export const PresentationSection = () => {
+  const currentAge = new Date().getFullYear() - 2003;
+
   return (
     <section
       id="presentation"
-      className="relative min-h-screen flex flex-col items-center justify-center px-4"
+      className="relative min-h-screen flex flex-col items-center justify-center px-4 pt-20 md:pt-0"
     >
-      <div className="container max-w-4xl mx-auto text-center z-10">
-        <div className="space-y-6">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-            <span className="opacity-0 animate-fade-in"> Hola! I'm </span>
-            <span className="text-primary opacity-0 animate-fade-in-delay-1">
-              Adolfo
-            </span>
-            <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
-              Rojas Valenzuela
-            </span>
-          </h1>
-          <br />
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I create innovative solutions that combine modern technologies with
-            business expertise. Specializing in data science and analytics, I
-            build systems that are powerful, scalable, and designed to deliver
-            real-world impact.
-          </p>
+      <article className="flex flex-col gap-16 w-full max-w-6xl mx-auto">
+        <section className="flex flex-col-reverse items-center gap-8 md:flex-row-reverse md:items-center md:justify-between">
 
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-            <a href="#projects" className="cosmic-button">
-              View My Work
+          {/* PDF Preview Card */}
+          <div className="w-10/12 md:w-2/5 mx-auto md:mx-0 p-6 mb-10 rounded-2xl border border-border bg-card text-card-foreground shadow-sm opacity-0 animate-fade-in-delay-1 flex flex-col items-center text-center gap-4">
+            <div className="w-20 h-20 rounded-full overflow-hidden ring-2 ring-primary/20 ring-offset-2 ring-offset-background">
+              <img
+                src="https://github.com/AdolfoRV.png"
+                alt="Adolfo R. V."
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg">Adolfo I. Rojas Valenzuela</h3>
+              <p className="text-sm">PDF • English/Español</p>
+            </div>
+            <a
+              href="https://raw.githubusercontent.com/AdolfoRV/AdolfoRV/main/cv-eng.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2.5 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
+            >
+              <FileDown size={16} />
+              View CV
             </a>
           </div>
-        </div>
-      </div>
 
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
-        <span className="text-sm text-muted-foreground mb-2"> Scroll </span>
-        <ArrowDown className="h-5 w-5 text-primary" />
-      </div>
+          {/* Presentation */}
+          <div className="flex flex-col items-center text-center z-10 md:items-start md:text-left">
+            <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-balance">
+              <span className="opacity-0 animate-fade-in">Hola! I'm </span>
+              <span className="text-primary opacity-0 animate-fade-in-delay-1">
+                Adolfo
+              </span>
+            </h1>
+
+            <p className="mt-2 text-sm font-medium sm:text-base text-muted-foreground opacity-0 animate-fade-in-delay-2">
+              {currentAge}yo Data Scientist & Industrial Engineer from Chile 🇨🇱
+            </p>
+
+            <p className="mt-4 max-w-sm text-balance text-sm sm:text-base text-muted-foreground opacity-0 animate-fade-in-delay-3">
+              Process engineer by background, software and data engineer by passion. I enjoy abstract/analythical problem solving and building things that actually matters.
+            </p>
+
+            <div className="mt-6 flex items-center gap-1 opacity-0 animate-fade-in-delay-3">
+              <p className="text-balance text-sm font-semibold sm:text-base">
+                Always open!
+              </p>
+              <ArrowDownRight className="hidden size-5 animate-bounce sm:block text-primary" />
+              <ArrowDown className="block size-5 animate-bounce sm:hidden text-primary" />
+            </div>
+
+            <section className="mt-6 flex flex-wrap justify-center md:justify-start items-center gap-4 opacity-0 animate-fade-in-delay-4">
+              <a href="#projects" className="cosmic-button">
+                My Projects
+              </a>
+
+              <a
+                className="hover:scale-110 transition-transform"
+                href="https://www.linkedin.com/in/adolfo-rv"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <Linkedin size={20} />
+              </a>
+              <a
+                className="hover:scale-110 transition-transform"
+                href="https://github.com/AdolfoRV"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                <Github size={20} />
+              </a>
+            </section>
+          </div>
+        </section>
+      </article>
     </section>
   );
 };
