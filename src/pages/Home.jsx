@@ -2,9 +2,9 @@ import navbarData from "@/data/navegation/home-navbar.json";
 import { Navbar } from "@/components/Navbar";
 import { StarBackground } from "@/components/background/StarBackground";
 import { PresentationSection } from "@/components/home/PresentationSection";
-import { AboutSection } from "@/components/home/about/AboutSection";
-import { CurriculumSection } from "@/components/home/curriculum/CurriculumSection";
+import { ExperienceSection } from "@/components/home/ExperienceSection";
 import { ProjectsSection } from "@/components/home/projects/ProjectsSection";
+import { CurriculumSection } from "@/components/home/curriculum/CurriculumSection";
 import { Footer } from "@/components/Footer";
 
 export const Home = () => {
@@ -12,12 +12,11 @@ export const Home = () => {
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <StarBackground />
       <Navbar items={navbarData} />
-      {/* Main Content */}
-      <main>
+      <main className="px-[5%] md:px-[8%] lg:px-[12%]">
         <PresentationSection />
-        <AboutSection />
-        <CurriculumSection />
+        <ExperienceSection />
         <ProjectsSection />
+        <CurriculumSection />
       </main>
 
       <Footer />
