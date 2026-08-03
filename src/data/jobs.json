@@ -1,0 +1,38 @@
+{
+  "career": [
+    {
+      "name": "PIRIS",
+      "href": null,
+      "logo": null,
+      "positions": [
+        {
+          "title": "Data Analyst",
+          "start": "Jan 2026",
+          "end": "Mar 2026",
+          "description": [
+            "Internship focused on operational traction and data-driven decision making.",
+            "Built an ETL pipeline in Google Apps Script to extract and process JSON data from the Jira API into Google BigQuery.",
+            "Designed table architecture (DDL) and optimized BigQuery queries for key business metrics.",
+            "Built a Looker Studio dashboard fed by BigQuery to monitor defined KPIs."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Universidad de Chile",
+      "href": "https://www.uchile.cl",
+      "logo": "https://raw.githubusercontent.com/mmattamala/LogosFCFM/refs/heads/master/Universidad%20de%20Chile/logo_escudo_png.png",
+      "positions": [
+        {
+          "title": "Teaching Assistant: Probability",
+          "start": "Aug 2024",
+          "end": "Jul 2025",
+          "description": [
+            "Assisted in a probability theory course covering random variables, distributions, expectations, and probabilistic models.",
+            "Graded assignments, exercises, and exams."
+          ]
+        }
+      ]
+    }
+  ]
+}
