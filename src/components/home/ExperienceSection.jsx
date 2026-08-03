@@ -6,6 +6,7 @@ import jobsData from "@/data/jobs.json";
 export const ExperienceSection = () => {
   const work = jobsData?.career ?? [];
   const education = credentialsData?.education ?? [];
+  const certifications = credentialsData?.certifications ?? [];
 
   return (
     <section id="experience" className="relative bg-secondary/30">
@@ -29,9 +30,30 @@ export const ExperienceSection = () => {
           <TabsContent value="education">
             <div className="rounded-lg border bg-card">
               <ul className="ml-10 border-l">
+                {/* Formal Education */}
                 {education.map((exp, id) => (
                   <TimelineItem key={id} experience={exp} />
                 ))}
+
+                {/* Certifications */}
+                <li className="relative ml-10 py-4">
+                  <h3 className="font-semibold uppercase">
+                    Certifications
+                  </h3>
+                </li>
+                {certifications.map((exp, id) => (
+                  <TimelineItem key={`cert-${id}`} experience={exp} />
+                ))}
+
+                {/* Certificates */}
+                {/* <li className="relative ml-10 py-4">
+                  <h3 className="font-semibold uppercase">
+                    Certificates
+                  </h3>
+                </li>
+                {certificates.map((exp, id) => (
+                  <TimelineItem key={`cert-${id}`} experience={exp} />
+                ))} */}
               </ul>
             </div>
           </TabsContent>
