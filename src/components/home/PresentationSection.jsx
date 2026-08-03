@@ -28,7 +28,7 @@ export const PresentationSection = () => {
               href="https://raw.githubusercontent.com/AdolfoRV/AdolfoRV/main/cv-eng.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2.5 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
+              className="cosmic-button w-full inline-flex items-center justify-center gap-2"
             >
               <FileDown size={16} />
               View CV
