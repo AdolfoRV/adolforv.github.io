@@ -1,0 +1,11 @@
+<svg id="mainSvg" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+                <defs>
+                    <mask id="symbolMask" maskUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+                        <rect width="1024" height="1024" fill="white"/>
+                        <!-- Novedad: Cambiamos dominant-baseline de 'central' a 'middle' -->
+                        <text id="maskText" x="50%" y="55.5%" dominant-baseline="middle" text-anchor="middle" font-family="'JetBrains Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica" font-size="800" fill="black">@</text>
+                    </mask>
+                </defs>
+                <path id="svgBgPath" d="M 519.5341286247607 25.059063656881392 Q 670.2167011199731 25.059063656881392 792.121463024735 113.62805754705872 L 804.3119392152112 122.48495693607643 Q 926.2167011199731 211.05395082625375 972.7801767771288 354.36159328994245 L 977.4365243428443 368.6923575363113 Q 1024 512 977.4365243428443 655.3076424636887 L 972.7801767771288 669.6384067100576 Q 926.2167011199731 812.9460491737462 804.3119392152112 901.5150430639236 L 792.121463024735 910.3719424529413 Q 670.2167011199731 998.9409363431187 519.5341286247607 998.9409363431187 L 504.46587137523943 998.9409363431187 Q 353.78329888002696 998.9409363431187 231.87853697526506 910.3719424529414 L 219.68806078478886 901.5150430639236 Q 97.78329888002696 812.9460491737464 51.21982322287127 669.6384067100577 L 46.56347565715569 655.3076424636888 Q 0 512.0000000000001 46.56347565715564 368.6923575363114 L 51.219823222871206 354.36159328994256 Q 97.78329888002685 211.0539508262538 219.68806078478872 122.48495693607649 L 231.87853697526495 113.62805754705873 Q 353.78329888002685 25.059063656881392 504.4658713752393 25.059063656881392 Z" fill="#049573" stroke="#2dd4bf" stroke-width="0" mask="url(#symbolMask)" stroke-dasharray="6, 6" stroke-linecap="butt"/>
+                <text id="svgText" x="50%" y="55.5%" dominant-baseline="middle" text-anchor="middle" font-family="'JetBrains Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica" font-size="800" fill="#ffffff" style="display: none;">@</text>
+            </svg>
