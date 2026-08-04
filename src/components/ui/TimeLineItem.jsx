@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function TimelineItem({ experience }) {
+export function TimelineItem({ experience }) {
   const { name, href, logo, positions } = experience;
   const [imgError, setImgError] = useState(false);
 
@@ -87,3 +87,5 @@ export default function TimelineItem({ experience }) {
     </li>
   );
 }
+
+export default TimelineItem;
