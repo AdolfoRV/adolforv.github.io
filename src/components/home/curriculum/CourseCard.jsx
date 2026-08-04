@@ -10,7 +10,7 @@ export function CourseCard({
   return (
     <div
       className={cn(
-        "bg-card p-3 rounded-md shadow-xs transition-all cursor-pointer border border-transparent text-xs relative",
+        "bg-card p-3 rounded-md shadow-xs transition-all cursor-pointer border border-transparent text-xs text-center relative",
         hovered === course.code && "border-primary bg-primary/10",
         isPrereq && "!border-blue-500 border-primary bg-primary/10",
         isOpened && "!border-green-500 border-primary bg-primary/10"

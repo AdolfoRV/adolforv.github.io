@@ -1,7 +1,6 @@
 [
   { "title": "Home", "href": "#presentation" },
-  { "title": "About", "href": "#about" },
-  { "title": "Curriculum", "href": "#curriculum" },
+  { "title": "Experience", "href": "#experience" },
   { "title": "Projects", "href": "#projects" },
   { "title": "Notes", "href": "https://adolforv.github.io/apuntes/", "external": true }
 ]
