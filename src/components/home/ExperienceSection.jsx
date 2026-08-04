@@ -1,5 +1,5 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Tabs";
-import TimelineItem from "@/components/ui/TimelineItem";
+import { TimelineItem } from "@/components/ui/TimelineItem";
 import credentialsData from "@/data/education/credentials.json";
 import jobsData from "@/data/jobs.json";
 
