@@ -1,4 +1,4 @@
-import { ArrowUp, Linkedin, Github, Instagram, Mail } from "lucide-react";
+import { ArrowUp, Linkedin, Github, Mail } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -19,14 +19,6 @@ export const Footer = () => {
           aria-label="GitHub"
         >
           <Github size={24} />
-        </a>
-        <a
-          href="https://instagram.com/ad.rrova"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Instagram"
-        >
-          <Instagram size={24} />
         </a>
         <a href="mailto:adolfo.rojas.v@ug.uchile.cl" aria-label="Email">
           <Mail size={24} />
