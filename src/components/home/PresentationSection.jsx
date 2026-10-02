@@ -25,7 +25,7 @@ export const PresentationSection = () => {
               <p className="text-sm">PDF • English/Español</p>
             </div>
             <a
-              href="https://github.com/AdolfoRV/AdolfoRV/blob/main/cv-eng.pdf"
+              href="https://adolforv.github.io/AdolfoRV/cv-eng.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="cosmic-button w-full inline-flex items-center justify-center gap-2"
